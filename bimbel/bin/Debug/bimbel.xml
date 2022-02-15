@@ -1,0 +1,231 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+bimbel
+</name>
+</assembly>
+<members>
+<member name="T:bimbel.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:bimbel.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:bimbel.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:bimbel.My.Resources.Resources.K052801170278">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:bimbel.My.Resources.Resources.user2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:bimbel.Data_angsuran">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:bimbel.Data_angsuran.v_history_angsuranDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:bimbel.Data_angsuran.v_history_angsuranRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:bimbel.Data_angsuran.v_history_angsuranRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:bimbel.Data_angsuranTableAdapters.v_history_angsuranTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:bimbel.Data_angsuranTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:bimbel.Data_angsuranTableAdapters.TableAdapterManager.UpdateUpdatedRows(bimbel.Data_angsuran,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:bimbel.Data_angsuranTableAdapters.TableAdapterManager.UpdateInsertedRows(bimbel.Data_angsuran,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:bimbel.Data_angsuranTableAdapters.TableAdapterManager.UpdateDeletedRows(bimbel.Data_angsuran,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:bimbel.Data_angsuranTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:bimbel.Data_angsuranTableAdapters.TableAdapterManager.UpdateAll(bimbel.Data_angsuran)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:bimbel.Data_angsuranTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:bimbel.Data_angsuranTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:bimbel.Data_pendaftaran">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:bimbel.Data_pendaftaran.v_pendaftaranDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:bimbel.Data_pendaftaran.v_pendaftaranRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:bimbel.Data_pendaftaran.v_pendaftaranRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:bimbel.Data_pendaftaranTableAdapters.v_pendaftaranTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:bimbel.Data_pendaftaranTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:bimbel.Data_pendaftaranTableAdapters.TableAdapterManager.UpdateUpdatedRows(bimbel.Data_pendaftaran,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:bimbel.Data_pendaftaranTableAdapters.TableAdapterManager.UpdateInsertedRows(bimbel.Data_pendaftaran,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:bimbel.Data_pendaftaranTableAdapters.TableAdapterManager.UpdateDeletedRows(bimbel.Data_pendaftaran,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:bimbel.Data_pendaftaranTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:bimbel.Data_pendaftaranTableAdapters.TableAdapterManager.UpdateAll(bimbel.Data_pendaftaran)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:bimbel.Data_pendaftaranTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:bimbel.Data_pendaftaranTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:bimbel.data_siswa">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:bimbel.data_siswa.siswaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:bimbel.data_siswa.siswaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:bimbel.data_siswa.siswaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:bimbel.data_siswaTableAdapters.siswaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:bimbel.data_siswaTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:bimbel.data_siswaTableAdapters.TableAdapterManager.UpdateUpdatedRows(bimbel.data_siswa,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:bimbel.data_siswaTableAdapters.TableAdapterManager.UpdateInsertedRows(bimbel.data_siswa,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:bimbel.data_siswaTableAdapters.TableAdapterManager.UpdateDeletedRows(bimbel.data_siswa,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:bimbel.data_siswaTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:bimbel.data_siswaTableAdapters.TableAdapterManager.UpdateAll(bimbel.data_siswa)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:bimbel.data_siswaTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:bimbel.data_siswaTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>

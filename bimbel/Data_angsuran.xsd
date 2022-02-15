@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Data_angsuran" targetNamespace="http://tempuri.org/Data_angsuran.xsd" xmlns:mstns="http://tempuri.org/Data_angsuran.xsd" xmlns="http://tempuri.org/Data_angsuran.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="bimbel_smk_nasionalConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="bimbel_smk_nasionalConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.bimbel.My.MySettings.GlobalReference.Default.bimbel_smk_nasionalConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="v_history_angsuranTableAdapter" GeneratorDataComponentClassName="v_history_angsuranTableAdapter" Name="v_history_angsuran" UserDataComponentName="v_history_angsuranTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="bimbel_smk_nasionalConnectionString (MySettings)" DbObjectName="bimbel_smk_nasional.dbo.v_history_angsuran" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        v_history_angsuran.*
+FROM            v_history_angsuran</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="id_history" DataSetColumn="id_history" />
+              <Mapping SourceColumn="id_pendaftaran" DataSetColumn="id_pendaftaran" />
+              <Mapping SourceColumn="cicilan_ke" DataSetColumn="cicilan_ke" />
+              <Mapping SourceColumn="besar_cicilan" DataSetColumn="besar_cicilan" />
+              <Mapping SourceColumn="sisa_besar_cicilan" DataSetColumn="sisa_besar_cicilan" />
+              <Mapping SourceColumn="sisa_banyak_cicilan" DataSetColumn="sisa_banyak_cicilan" />
+              <Mapping SourceColumn="sudah_lunas" DataSetColumn="sudah_lunas" />
+              <Mapping SourceColumn="tgl_bayar" DataSetColumn="tgl_bayar" />
+              <Mapping SourceColumn="siswa" DataSetColumn="siswa" />
+              <Mapping SourceColumn="id_siswa" DataSetColumn="id_siswa" />
+              <Mapping SourceColumn="kelas" DataSetColumn="kelas" />
+              <Mapping SourceColumn="angsuran" DataSetColumn="angsuran" />
+              <Mapping SourceColumn="paket" DataSetColumn="paket" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Data_angsuran" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="Data_angsuran" msprop:Generator_UserDSName="Data_angsuran">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="v_history_angsuran" msprop:Generator_TableClassName="v_history_angsuranDataTable" msprop:Generator_TableVarName="tablev_history_angsuran" msprop:Generator_TablePropName="v_history_angsuran" msprop:Generator_RowDeletingName="v_history_angsuranRowDeleting" msprop:Generator_RowChangingName="v_history_angsuranRowChanging" msprop:Generator_RowEvHandlerName="v_history_angsuranRowChangeEventHandler" msprop:Generator_RowDeletedName="v_history_angsuranRowDeleted" msprop:Generator_UserTableName="v_history_angsuran" msprop:Generator_RowChangedName="v_history_angsuranRowChanged" msprop:Generator_RowEvArgName="v_history_angsuranRowChangeEvent" msprop:Generator_RowClassName="v_history_angsuranRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id_history" msprop:Generator_ColumnVarNameInTable="columnid_history" msprop:Generator_ColumnPropNameInRow="id_history" msprop:Generator_ColumnPropNameInTable="id_historyColumn" msprop:Generator_UserColumnName="id_history" type="xs:int" />
+              <xs:element name="id_pendaftaran" msprop:Generator_ColumnVarNameInTable="columnid_pendaftaran" msprop:Generator_ColumnPropNameInRow="id_pendaftaran" msprop:Generator_ColumnPropNameInTable="id_pendaftaranColumn" msprop:Generator_UserColumnName="id_pendaftaran" type="xs:int" />
+              <xs:element name="cicilan_ke" msprop:Generator_ColumnVarNameInTable="columncicilan_ke" msprop:Generator_ColumnPropNameInRow="cicilan_ke" msprop:Generator_ColumnPropNameInTable="cicilan_keColumn" msprop:Generator_UserColumnName="cicilan_ke" type="xs:int" />
+              <xs:element name="besar_cicilan" msprop:Generator_ColumnVarNameInTable="columnbesar_cicilan" msprop:Generator_ColumnPropNameInRow="besar_cicilan" msprop:Generator_ColumnPropNameInTable="besar_cicilanColumn" msprop:Generator_UserColumnName="besar_cicilan" type="xs:int" />
+              <xs:element name="sisa_besar_cicilan" msprop:Generator_ColumnVarNameInTable="columnsisa_besar_cicilan" msprop:Generator_ColumnPropNameInRow="sisa_besar_cicilan" msprop:Generator_ColumnPropNameInTable="sisa_besar_cicilanColumn" msprop:Generator_UserColumnName="sisa_besar_cicilan" type="xs:int" />
+              <xs:element name="sisa_banyak_cicilan" msprop:Generator_ColumnVarNameInTable="columnsisa_banyak_cicilan" msprop:Generator_ColumnPropNameInRow="sisa_banyak_cicilan" msprop:Generator_ColumnPropNameInTable="sisa_banyak_cicilanColumn" msprop:Generator_UserColumnName="sisa_banyak_cicilan" type="xs:int" />
+              <xs:element name="sudah_lunas" msprop:Generator_ColumnVarNameInTable="columnsudah_lunas" msprop:Generator_ColumnPropNameInRow="sudah_lunas" msprop:Generator_ColumnPropNameInTable="sudah_lunasColumn" msprop:Generator_UserColumnName="sudah_lunas">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="tgl_bayar" msprop:Generator_ColumnVarNameInTable="columntgl_bayar" msprop:Generator_ColumnPropNameInRow="tgl_bayar" msprop:Generator_ColumnPropNameInTable="tgl_bayarColumn" msprop:Generator_UserColumnName="tgl_bayar" type="xs:dateTime" />
+              <xs:element name="siswa" msprop:Generator_ColumnVarNameInTable="columnsiswa" msprop:Generator_ColumnPropNameInRow="siswa" msprop:Generator_ColumnPropNameInTable="siswaColumn" msprop:Generator_UserColumnName="siswa">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="id_siswa" msprop:Generator_ColumnVarNameInTable="columnid_siswa" msprop:Generator_ColumnPropNameInRow="id_siswa" msprop:Generator_ColumnPropNameInTable="id_siswaColumn" msprop:Generator_UserColumnName="id_siswa" type="xs:int" minOccurs="0" />
+              <xs:element name="kelas" msprop:Generator_ColumnVarNameInTable="columnkelas" msprop:Generator_ColumnPropNameInRow="kelas" msprop:Generator_ColumnPropNameInTable="kelasColumn" msprop:Generator_UserColumnName="kelas">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="angsuran" msprop:Generator_ColumnVarNameInTable="columnangsuran" msprop:Generator_ColumnPropNameInRow="angsuran" msprop:Generator_ColumnPropNameInTable="angsuranColumn" msprop:Generator_UserColumnName="angsuran">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="paket" msprop:Generator_ColumnVarNameInTable="columnpaket" msprop:Generator_ColumnPropNameInRow="paket" msprop:Generator_ColumnPropNameInTable="paketColumn" msprop:Generator_UserColumnName="paket">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:v_history_angsuran" />
+      <xs:field xpath="mstns:id_history" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
